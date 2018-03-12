@@ -41,7 +41,7 @@ int main()
 	* LAB_NAME		: Title of the Lab
 	**************************************************************************/
 
-	const char	PROGRAMMERS[]	= "Zac Campos & Sebastian Hooshmand";
+	const char	PROGRAMMERS[]		= "Zac Campos & Sebastian Hooshmand";
 	const char	CLASS[]			= "CS1A";
 	const char	SECTION[]		= "MW: 8am";
 	const int	LAB_NUM			= 15;
@@ -50,8 +50,8 @@ int main()
 	const int	ALIGN			= 35;
 
 	// Input and calculation variables
-	char	name[30];					// This is for the user's name
-	float	previousWeek	= 0;		// How much the user spent last week
+	char	name[30];				// This is for the user's name
+	float	previousWeek		= 0;		// How much the user spent last week
 	float	amountSpent		= 0;		// How much the user spent this week
 	float	remainder		= 0;		// The amount left from this week
 
@@ -70,7 +70,7 @@ int main()
 	*			previous week, and the amount spent this week.
 	**************************************************************************/
 	cout << left;
-	cout << setw(ALIGN) << "What is your name:";
+	cout << setw(ALIGN) << "What is your name?:";
 	cin.getline (name, 30);
 
 	cout << setw(ALIGN) << "How much is left from last week?:";

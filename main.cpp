@@ -90,7 +90,7 @@ int main()
 	* OUTPUT - Prompts the user with 'hello' and their name and how much
 	*			pocket money they have left.
 	**************************************************************************/
-	cout << "Hello " << name << endl;
+	cout << "Hello " << name << "!" << endl;
 	cout << fixed << setprecision(2);
 	cout << "You now have $ " << remainder << " left.";
 	
